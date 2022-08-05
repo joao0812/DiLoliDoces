@@ -1,0 +1,112 @@
+/*--------------------------------CLASSICOS-----------------------------*/
+
+.brigadeiroBranco {
+    background-image: url('../assets/brigadeiros/classicos/brigadeiro\ branco.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.brigadeiroTradicional {
+    background-image: url('../assets/brigadeiros/classicos/brigadeiro\ tradicional.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.beijinho {
+    background-image: url('../assets/brigadeiros/classicos/beijinho.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.casadinho {
+    background-image: url('../assets/brigadeiros/classicos/casadinho.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*--------------------------------ESPECIAIS-----------------------------*/
+
+.nuttela {
+    background-image: url('../assets/brigadeiros/especiais/brigadeiro\ nuttela.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.chokito {
+    background-image: url('../assets/brigadeiros/especiais/brigadeiro\ chokito.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.churros {
+    background-image: url('../assets/brigadeiros/especiais/brigadeiro\ churros.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cocoQueimado {
+    background-image: url('../assets/brigadeiros/especiais/brigadeiro\ coco\ queimado.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.romeuJulieta {
+    background-image: url('../assets/brigadeiros/especiais/brigadeiro\ romeu\ julieta.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.doceUva {
+    background-image: url('../assets/brigadeiros/especiais/brigadeiro\ uva.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.damasco {
+    background-image: url('../assets/brigadeiros/especiais/brigadeiro\ damasco.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.pacoca {
+    background-image: url('../assets/brigadeiros/especiais/brigadeiro\ pacoca.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*--------------------------------PREMIUM-----------------------------*/
+
+.morango {
+    background-image: url('../assets/brigadeiros/premium/brigadeiro\ com\ morango.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.balaBaiana {
+    background-image: url('../assets/brigadeiros/premium/bala\ baiana.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------------PERSONALIZADO---------------------------*/
+.colorido {
+    background-image: url('../assets/brigadeiros/personalizados/colorido.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.azul {
+    background-image: url('../assets/brigadeiros/personalizados/nuttela\ azul.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.marcado {
+    background-image: url('../assets/brigadeiros/personalizados/marcado.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

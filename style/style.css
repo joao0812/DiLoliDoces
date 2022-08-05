@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: 'Afrah' ;
+    src: url('../fonts/TTF/Afrah-Regular.ttf') format('truetype'), url('../fonts/OTF/Afrah-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --vinho: #7F0F01;
+    --azul: #B3CCCB;
+    --marrom: #923D20;
+    --Andada: 'Andada Pro', serif;
+    --Afrah: 'Afrah', serif;   
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-image: url('../assets/3.png');
+    background-repeat: no-repeat;
+}
+/* ::-webkit-scrollbar {
+    height: 8px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+} */
+#logoMenu {
+    width: 75px;
+}
+.menuContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--vinho);    
+    opacity: 0.75;
+}
+
+.menu {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tools {
+    display: flex;
+}
+.tools ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.tools ul li {
+    font-family: var(--Andada);
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 8px;
+    color: #f5f5f5;
+    transition: 0.4s;
+    border-bottom: 2px solid var(--vinho);
+    cursor: pointer;
+}
+.tools ul li:hover {
+    border-bottom: 2px solid #f5f5f5;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.home {
+    width: 100%;
+    height: 500px;
+    background-image: url('../assets/doces\ Fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.glassHome {
+    width: 550px;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    backdrop-filter: blur(3px);
+}
+.textGlass {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#coracaoUnidade {
+    width: 12px;
+}
+.home h3 {
+    font-family: var(--Andada);
+    letter-spacing: 3px;
+    font-size: 22px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.home ion-icon {
+    font-size: 9px;
+}
+.btDiv {
+    width: 50%;
+    border-radius: 8px;
+    background-color: var(--vinho);
+    opacity: 0.85;
+    border-style: none;
+    text-align: center;
+}
+
+.btHome {
+    width: 100%;
+    height: 100%;
+    padding: 7px;
+    border-radius: 8px;
+    background-color: transparent;
+    border-style: none;
+    letter-spacing: 2px;
+    color: white;
+    font-family: var(--Afrah);
+    font-weight: 900;
+    font-style: oblique;
+    cursor: pointer;
+}
+.btHome:hover {
+    background-color: #9e1706;
+}
+
+
+.cardapio {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.brigadeiro {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.tituloCardapio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 5px;
+    font-size: 22px;
+    width: 280px;
+    border-radius: 20px;
+    border-right: 2px solid var(--vinho);
+    border-left: 2px solid var(--vinho);
+    
+}
+.tituloCardapio img {
+    width: 50px;
+}
+.containerBrigadeiros {
+    width: 100%;
+    height: 100px;
+    background-color: #8E3F35;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerBrigadeiros img {
+    width: 40px;
+}
+.cardTipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8E3F35;
+    border-radius: 15px;
+    padding: 4px;
+    gap: 10px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+    font-size: 18px;
+    transition: .3s;
+}
+.cardTipo:hover {
+    border: 1px solid #f5f5f5;
+    cursor: pointer;
+}
+.selected {
+    background-color: var(--azul);
+    border: 1px solid var(--azul);
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.brigadeirosClassicos {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+
+.ofertas {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.ofertaContainer {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.cardBrigadeiro {
+    width: 190px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.bricadeiroImg {
+    width: 100%;
+    height: 180px;
+}
+.brigadeiroText {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #8E3F35;
+}
+.brigadeiroText h4 {
+    margin-top: 10px;
+    color: #f5f5f5;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+.btWpp {
+    padding: 5px;
+    border-radius: 50px;
+    width: 30px;
+    border-style: none;
+    background-color: var(--vinho);
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: .4s;
+}
+.btWpp:hover {
+    width: 80%;
+    border-radius: 15px;
+    background-color: #25D366;
+}
+.btWpp ion-icon {
+    transition: .4s;
+    color: #f5f5f5;
+}
+.btWpp:hover ion-icon {
+    transform: scale(0);
+}
+.btWpp span {
+    transform: scale(0);
+    font-size: 14px;
+    position: absolute;
+    transition: .6s;
+}
+.btWpp:hover span {
+    transform: scale(1);
+}
+
+
+
+.cardOferta {
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.ofertaImg {
+    width: 50%;
+    height: 120px;
+    box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.45);
+}
+.ofertaText {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    align-items: center;
+    gap: 10px;
+    border-top: 2px solid var(--vinho);
+    border-right: 2px solid var(--vinho);
+    border-bottom: 2px solid var(--vinho);
+}
+.ofertaText2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    align-items: center;
+    gap: 10px;
+    border-top: 2px solid var(--vinho);
+    border-left: 2px solid var(--vinho);
+    border-bottom: 2px solid var(--vinho);
+}
+.ofertaImg2 {
+    width: 50%;
+    height: 120px;
+    box-shadow: -5px 0px 8px rgba(0, 0, 0, 0.45);
+}
+
+
+
+.about, .contato {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.textAbout {
+    width: 800px;
+    padding: 30px;
+    text-align: justify;
+    font-family: var(--Afrah);
+    font-weight: 900;
+    letter-spacing: 2px;
+    border-right: 2px solid var(--vinho);
+    border-left: 2px solid var(--vinho);
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .brigadeiro {
+        width: 90%;
+    }
+    .textGlass h3 {
+        font-size: 16px;
+    }
+    .tools ul li {
+        padding: 0px;
+        font-size: 14px;
+    }
+    .tools {
+        padding-bottom: 4px;
+    }
+    .tools ul {
+        gap: 8px;
+    }
+    .ofertaContainer {
+        width: 85%;
+    }
+    .textAbout {
+        width: 90%;
+    }
+}
