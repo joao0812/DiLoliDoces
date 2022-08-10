@@ -18,11 +18,21 @@
             </div>
             <div class="tools">
                 <ul>
-                    <a href="#home"><li>Home</li></a>
-                    <a href="#cardapio"><li>Cardápio</li></a>
-                    <a href="#personalizado"><li>Personalizados</li></a>
-                    <a href="#about"><li>Sobre nós</li></a>
-                    <li>Contato</li>
+                    <a href="#home">
+                        <li>Home</li>
+                    </a>
+                    <a href="#cardapio">
+                        <li>Cardápio</li>
+                    </a>
+                    <a href="#personalizado">
+                        <li>Personalizados</li>
+                    </a>
+                    <a href="#about">
+                        <li>Sobre nós</li>
+                    </a>
+                    <a href="#contato">
+                        <li>Contato</li>
+                    </a>
                 </ul>
             </div>
         </div>
@@ -60,7 +70,10 @@
                 <div class="bricadeiroImg brigadeiroBranco"></div>
                 <div class="brigadeiroText">
                     <h4>Branco</h4>
-                    <h3>R$2,30</h3> <button class="btWpp">
+                    <div class="cardPreco">
+                        <h3>R$2,30</h3>
+                    </div>
+                    <button class="btWpp">
                         <ion-icon name="logo-whatsapp"></ion-icon><span>Pedir!</span>
                     </button>
                 </div>
@@ -69,7 +82,10 @@
                 <div class="bricadeiroImg brigadeiroTradicional"></div>
                 <div class="brigadeiroText">
                     <h4>Tradicional</h4>
-                    <h3>R$2,30</h3> <button class="btWpp">
+                    <div class="cardPreco">
+                        <h3>R$2,30</h3>
+                    </div>
+                    <button class="btWpp">
                         <ion-icon name="logo-whatsapp"></ion-icon><span>Pedir!</span>
                     </button>
                 </div>
@@ -78,7 +94,10 @@
                 <div class="bricadeiroImg beijinho"></div>
                 <div class="brigadeiroText">
                     <h4>Beijinho</h4>
-                    <h3>R$2,30</h3> <button class="btWpp">
+                    <div class="cardPreco">
+                        <h3>R$2,30</h3>
+                    </div>
+                    <button class="btWpp">
                         <ion-icon name="logo-whatsapp"></ion-icon><span>Pedir!</span>
                     </button>
                 </div>
@@ -87,7 +106,10 @@
                 <div class="bricadeiroImg casadinho"></div>
                 <div class="brigadeiroText">
                     <h4>Casadinho</h4>
-                    <h3>R$2,30</h3> <button class="btWpp">
+                    <div class="cardPreco">
+                        <h3>R$2,30</h3>
+                    </div>
+                    <button class="btWpp">
                         <ion-icon name="logo-whatsapp"></ion-icon><span>Pedir!</span>
                     </button>
                 </div>
@@ -135,19 +157,46 @@
             <h3>Sobre Nós</h3>
         </div>
         <div class="textAbout">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi tempore cum officia saepe! Ad, consequuntur nemo ratione, ut dolore animi tempora nostrum quibusdam earum, recusandae cupiditate. Aperiam distinctio reprehenderit optio! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis voluptate doloribus, aut fugiat perspiciatis, illum, vitae tenetur ducimus itaque distinctio aliquam expedita? Est excepturi quasi in reprehenderit, inventore doloribus cum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi tempore cum officia saepe! Ad, consequuntur nemo ratione, ut dolore animi tempora nostrum quibusdam earum, recusandae cupiditate. Aperiam distinctio reprehenderit optio! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis voluptate doloribus, aut fugiat perspiciatis, illum, vitae tenetur ducimus itaque distinctio aliquam expedita? Est excepturi quasi in reprehenderit, inventore doloribus cum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi tempore cum officia saepe! Ad,
+                consequuntur nemo ratione, ut dolore animi tempora nostrum quibusdam earum, recusandae cupiditate.
+                Aperiam distinctio reprehenderit optio! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                voluptate doloribus, aut fugiat perspiciatis, illum, vitae tenetur ducimus itaque distinctio aliquam
+                expedita? Est excepturi quasi in reprehenderit, inventore doloribus cum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi tempore cum officia saepe! Ad,
+                consequuntur nemo ratione, ut dolore animi tempora nostrum quibusdam earum, recusandae cupiditate.
+                Aperiam distinctio reprehenderit optio! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                voluptate doloribus, aut fugiat perspiciatis, illum, vitae tenetur ducimus itaque distinctio aliquam
+                expedita? Est excepturi quasi in reprehenderit, inventore doloribus cum.</p>
         </div>
     </section>
 
-    <section id="contato" class="contato">
+    <footer id="contato" class="contato">
         <div class="tituloCardapio">
             <img src="assets/icone-brigadeiro.png" />
             <h3>Contato</h3>
         </div>
-    </section>
-
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="social">
+            <div class="containerSocial">
+                <div class="cardSocial insta">
+                    <a href="">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </div>
+                <img id="coracaoUnidade" src="assets/coração unidade.png">
+                <div class="cardSocial wpp">
+                    <a href="">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </a>
+                </div>
+                <img id="coracaoUnidade" src="assets/coração unidade.png">
+                <div class="cardSocial email">
+                    <a href="">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="script/script.js"></script>
 

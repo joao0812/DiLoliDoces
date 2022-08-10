@@ -274,8 +274,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 13px;
     background-color: #8E3F35;
+    position: relative;
 }
 .brigadeiroText h4 {
     margin-top: 10px;
@@ -283,6 +284,38 @@ body {
     letter-spacing: 2px;
     font-size: 15px;
     font-weight: 900;
+}
+.cardPreco {
+    position: relative;
+    width: 66px;
+    height: 33px;
+}
+.brigadeiroText h3 {
+    background-image: url(../assets/3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5px;
+    border-radius: 12px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.brigadeiroText::before {
+    content: '';
+    width: 100%;
+    height: 10px;
+    background-image: url(../assets/3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 53px;
+    right: 0;
+    z-index: 1;
 }
 
 
@@ -396,6 +429,45 @@ body {
 
 
 
+.contato {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    border-top: 3px solid var(--vinho);
+    background: linear-gradient(180deg, #BED1D2, var(--marrom));
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+.containerSocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.containerSocial img{
+    width: 20px;
+    height: 20px;
+}
+.cardSocial {
+    width: 55px;
+    height: 55px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.cardSocial ion-icon {
+    width: 95%;
+    height: 95%;
+    transition: .2s;
+    color: black;
+}
+.cardSocial:hover ion-icon {
+    color: var(--azul);
+    transform: scale(1.2);
+}
 
 
 
@@ -415,13 +487,16 @@ body {
     }
     .tools ul li {
         padding: 0px;
-        font-size: 14px;
+        font-size: 12px;
     }
     .tools {
         padding-bottom: 4px;
     }
     .tools ul {
         gap: 8px;
+    }
+    .menu {
+        justify-content: center;
     }
     .ofertaContainer {
         width: 85%;
